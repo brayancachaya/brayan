@@ -1,0 +1,192 @@
+
+.cabecera{
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+}
+.cabecera img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cabecera h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+
+}
+.cabecera h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(241, 12, 12);
+}
+
+.menu{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.menu ul li a{
+    color: rgb(205, 12, 12);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu ul li a:hover{
+    color:  rgb(255, 255, 255);
+}
+
+.slider  {
+    width: 100%;
+    height: 650px;
+}
+.iconos{
+    overflow: hidden;
+    text-align: center;
+    color: rgb(151, 211, 190);
+    background-color: rgb(0, 0, 0);
+
+}
+ .iconos p{
+     color: rgb(255, 255, 255);
+     padding: 10px;
+
+
+ }
+.iconos h3{
+    font-size: 30px;
+}
+.iconos div{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+}
+.iconos div img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}
+.publicidad{
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}    
+
+.ubicacionmap{
+ width: 100%;
+ text-align: center;
+}
+
+.piedepagina{
+    background:  rgb(56, 77, 77);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: green;
+    background: white;
+}
+
+.body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background:rgb(152, 170, 170);
+    color: #999;
+    }
+    
+    .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    }
+    
+    .login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(199, 31, 25);
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow:  0 2px 4px rgb(0, 0, 0);
+    }
+    
+    .login-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    }
+    
+    .login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .login-form-label{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    }
+    
+    .login-form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(152, 170, 170);
+    color: #fff;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    }
+    
+    .login-form-button{
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(152, 170, 170);
+    color: #fff;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
